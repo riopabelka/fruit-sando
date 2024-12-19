@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit Sando</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fruit Sando</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Rasakan Kesegaran Buah dalam Setiap Gigitan!</h2>
+    <p>Fruit Sando kami dibuat dengan roti lembut, buah segar, dan krim yang lezat.</p>
+  </section>
+
+  <section id="about">
+    <h2>Tentang Kami</h2>
+    <p>Kami menghadirkan perpaduan sempurna antara buah-buahan segar dan roti berkualitas tinggi.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Menu Kami</h2>
+    <div class="product">
+     <img src=" <h3>Strawberry Sando.jpg" alt=Anggur Sando"> </h3>
+      <p>Rp15.000</p>
+    </div>
+    <div class="product">
+      <h3>Anggur Sando</h3>
+      <p>Rp15.000</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak Kami</h2>
+    <form>
+      <input type="text" placeholder="Nama">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Pesan"></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Fruit Sando</p>
+  </footer>
+</body>
+</html>
